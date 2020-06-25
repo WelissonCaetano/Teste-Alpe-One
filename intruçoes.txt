@@ -1,0 +1,17 @@
+1. modeJS instalado
+2. npm instalado.
+3. Rodar os seguintes comandos
+    npm install express --save
+    npm install nunjucks --save 
+4. Instalar Gulp
+    npm install --global gulp-cli
+5. Rodar o comando com os instala o plugin gulp nescessarios
+    npm install -D gulp gulp-plumber gulp-uglify gulp-concat gulp-rename 
+6. Rodar o gulp
+    gulp scripts
+7. Rodar o comando par rederizar a apliação com:
+    node js/scripts.js
+8.  Colar o link a baixo no navegador
+    https://localhost:1337
+9. Derrubar o servido node
+    CTRL+C

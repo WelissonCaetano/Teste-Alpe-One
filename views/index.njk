@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>TESTE</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" type="text/css" href="css/stylo.css"/>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+        {# <link href="//db.onlinewebfonts.com/c/5a317f89aa9b10f820d50b7042d28eb1?family=FoundryMonolineOT3W08-ExBdIta" rel="stylesheet" type="text/css"/> #}
+
+    </head>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ma-r">
+                    <a class="nav-link" href="#">
+                        <i class="fa fa-home"></i>
+                       <span class = "itemnav"> {{left}}</span>
+                    </a>
+                </li>
+                <li class="nav-item f-l-m">
+                    <a class="nav-link" href="#">
+                        <i class="fa fa-map-marker"></i>
+                     <span class = "itemnav">{{mediun}}</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">
+                        <i class="fa fa-envelope"></i>
+                       <span class = "itemnav">{{right}}</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <body>
+        <div>
+            {# <img src="http://localhost:1337/css/img/logo.png"> #}
+            <img class="m-r img" src="http://localhost:1337/css/img/logo.png">
+
+            <div class="f-r">
+                <h5 class="text-a">{{cenAten}}</h5>
+                <p class="r text-b">{{telefone}}</p>
+            </div>
+        </div>
+
+        <section class="pri">
+            <!-- Content here -->
+            <img class="img" src="http://localhost:1337/css/img/civic.png">
+            {# <p>Hello 5 World {{ name }}</p> #}
+            <div id="drive" class="jumbotron jumbotron-fluid input-group col-md-3 f-r box" style="height: 1rem;">
+                <div class="card interna" style="width: 18rem;">
+                    <div class="f-r">
+                        <span>
+                            <i class="fa fa-phone tel"></i>
+                        </span>
+                        <span class="f-r text-tel">
+                            <p class="text-c">{{solicitar}}</p>
+                            <p class="r text-d">{{contato}}</p>
+                        </span>
+                    </div>
+                    <div >
+                        <input type="text" class="form-control form-control-sm" placeholder="&#xF007; Nome" style="font-family:Arial, FontAwesome"/>
+                        <input type="text" class="form-control form-control-sm" placeholder="&#xF007; e-mail" style="font-family:Arial, FontAwesome"/>
+                        <input type="text" class="form-control form-control-sm" placeholder="&#xF2a0; telefone" style="font-family:Arial, FontAwesome"/>
+                        <input type="text" class="form-control form-control-sm" placeholder="&#xF007; Nome" style="font-family:Arial, FontAwesome"/>
+                        <select class="form-control form-control-sm">
+                        
+                            <option >
+                                <span><i class="fas fa-phone" style="font-family:Arial, bold">&#xF007; Escolha um Horário</i></span></option>
+                        </select>
+                        <select class="form-control form-control-sm">
+                            <option>
+                                <i class="fas fa-phone-volume"> &#xF007; Escolha um Unidade</i></option>
+                        </select>
+                        <input type="text" class="form-control form-control-lg input-b" value="AGENDAR TESTE DRIVE" tyle="font-family:Arial, FontAwesome"/>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <div class="container d-r">
+                <h1 class="text-e">{{fraseum}}</h1>
+                <div class="row">
+                    <div class=".col">
+                        <div class="col img-m">
+                            <img src="http://localhost:1337/css/img/faceUm.png">
+                        </div>
+                        <div class="col img-m">
+                            <img src="http://localhost:1337/css/img/facedois.png">
+                        </div>
+                        <div class="col img-m">
+                            <img src="http://localhost:1337/css/img/facetres.png">
+                        </div>
+                    </div>
+                    <div class="exter">
+                        <div class="w-100"></div>
+                        <div class="col">
+                            <img src="http://localhost:1337/css/img/f-v.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="text-t-r">
+                    <p class="text-f">
+                      {{textoum}}
+                    </p>
+                </div>
+
+            </section>
+            <section>
+                <div class="container d-r">
+                    <div class="row">
+                        <div>
+                            <div class="col-lg-12 col-sm-12">
+                                <img src="http://localhost:1337/css/img/painel.png">
+                            </div>
+                            <div class="foto-t-r">
+                                <div class="col-lg-3 col-sm-12">
+                                    <img class="foto-bor" src="http://localhost:1337/css/img/volante.png">
+                                    <h5 class="text-g">{{tituloum}}</h5>
+                                    <p class="text-h">{{textodois}}</p>
+                                </div>
+                                <div class="col-lg-3 col-sm-12">
+                                    <img class="foto-bor" src="http://localhost:1337/css/img/botoes.png">
+                                    <h5 class="text-g">{{titulodois}}</h5>
+                                    <p class="text-h">{{textotres}}</p>
+                                </div>
+                                <div class="col-lg-3 col-sm-12">
+                                    <img class="foto-bor" src="http://localhost:1337/css/img/cambio.png">
+                                    <h5 class="text-g">{{titulotres}}</h5>
+                                    <p class="text-h">{{textoquatro}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container d-r m-card">
+                    <h1 class="text-e">{{frasedois}}</h1>
+                    <p class="text-h">{{frasetres}}</p>
+                    <div class="row">
+                        <div class="card-a">
+                            <div class="card text-center col-lg-4" style="width: 18rem;">
+                                <div class="card-body">
+                                    <picture>
+                                        {# <source media="(min-width:650px)" srcset="img_pink_flowers.jpg">
+                                        <source media="(min-width:465px)" srcset="img_white_flower.jpg"> #}
+                                        <img src="http://localhost:1337/css/img/accord.png">
+                                    </picture>
+                                    <p class="text-h tx-j">{{textocinco}}</p>
+                                    <a href="#" class="btn btn-light border text-i">{{conheca}}</a>
+                                </div>
+                            </div>
+                            <div class="card text-center col-lg-4 card-l" style="width: 18rem;">
+                                <div class="card-body">
+                                    <picture>
+                                        <img src="http://localhost:1337/css/img/city.png">
+                                    </picture>
+                                    <p class="text-h tx-j">{{textoseis}}</p>
+                                    <a href="#" class="btn btn-light border text-i">{{conheca}}</a>
+                                </div>
+                            </div>
+                            <div class="card text-center col-lg-4 card-l" style="width: 18rem;">
+                                <div class="card-body">
+                                    <picture>
+                                        <img src="http://localhost:1337/css/img/fit.png">
+                                    </picture>
+                                    <p class="text-h tx-j">{{textosete}}</p>
+                                    <a href="#" class="btn btn-light border text-i">{{conheca}}</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </body>
+        <footer>
+            <div class="jumbotron jumbotron-fluid j-pad">
+                <div class="container">
+                    <div class="row  j-center">
+                        <a href="" class="btn btn-light borda tx-j">
+                            <span>
+                                <i class="fa fa-map-marker mark"></i>
+                            </span>
+                            <span class="f-r">
+                                <p class="text-h ajus-btn">{{encontre}}</p>
+                                <h5 class="r text-j mtop">{{concess}}</h5>
+                            </span>
+                        </a>
+                        <a href="" class="btn btn-light borda tx-j mr-lf">
+                            <p class="text-l">{{cenAten}}</p>
+                            <h5 class="r text-m mtop">{{telefone}}</h5>
+                        </a>
+                    </div>
+                    <div class="tx-center">
+                        <p class="text-n">{{frasequatro}}</p>
+                        <div>
+                            <a href="">
+
+                                <i class="fa fa-facebook rede"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-instagram rede"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-twitter rede"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" row col-lg-12 j-center">
+                <img src="http://localhost:1337/css/img/logo.png">
+                <span class="divf-l">
+                    <small class="text-o">{{educacao}}<span><img class="card-a" src="http://localhost:1337/css/img/ibama.png"></span></small>
+                </span>
+            </div>
+        </footer>
+    </html>
